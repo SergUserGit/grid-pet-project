@@ -92,3 +92,17 @@ p {
   column-gap: 14px;
   align-items: center;
 }
+
+.social-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 24px) 1fr;
+  column-gap: 12px;
+}
+
+.group-header-one {
+  display: grid;
+  grid-template-columns: 699px 1fr;
+  column-gap: 302px;
+  align-items: center;
+}
