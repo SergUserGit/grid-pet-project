@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+}
+
+.temp-logo {
+  padding-top: 17px;
+  padding-right: 17px;
+}
+
+.span-temp {
+  font-weight: 400;
+  font-size: 12px;
+  color: #393939;
+}
+
+.group-temp {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header {
+  box-shadow: 0 1px 10px 0 rgba(246, 80, 80, 0.15);
+  background: #fff;
+}
+
+.span-town {
+  font-weight: 400;
+  font-size: 12px;
+  color: #393939;
+}
+
+.date-title {
+  font-weight: 400;
+  font-size: 12px;
+  color: #393939;
+}
+
+.group-news {
+  display: flex;
+  background: #f65050;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.span-news {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
+
+.indonesia-title {
+  font-weight: 400;
+  font-size: 12px;
+  color: #393939;
+}
+
+.temp-logo {
+  display: grid;
+  grid-template-columns: 16px repeat(6, 1fr);
+  column-gap: 14px;
+  align-items: center;
+}
