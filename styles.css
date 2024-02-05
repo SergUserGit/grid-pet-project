@@ -50,6 +50,7 @@ p {
 .header {
   box-shadow: 0 1px 10px 0 rgba(246, 80, 80, 0.15);
   background: #fff;
+  margin-bottom: 25px;
 }
 
 .span-town {
@@ -105,4 +106,69 @@ p {
   grid-template-columns: 699px 1fr;
   column-gap: 302px;
   align-items: center;
+}
+
+.overlay-hero {
+  width: 771px;
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/overlay_img.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 24px;
+  padding-right: 24px;
+
+  display: grid;
+  grid-template-columns: 219px 1fr;
+  column-gap: 306px;
+  align-items: center;
+}
+
+.hero-paragh-one {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 151%;
+  color: #fff;
+  width: 219px;
+
+}
+
+.hero-paragh-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 151%;
+  color: #f65050;
+}
+
+.hero-paragh {
+  display: grid;
+  grid-template-columns: 219px;
+  row-gap: 2px;
+}
+
+.button-span {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.button-hero {
+  background: #f65050;
+  padding-top: 14px;
+  padding-left: 15px;
+  padding-bottom: 14px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 247px 1fr;
+  align-items: center;
+  column-gap: 120px;
 }
