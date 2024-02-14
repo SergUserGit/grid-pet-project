@@ -197,6 +197,10 @@ p {
 .main-form {
   background: #393939;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+  padding-left: 15px;
 }
 
 .nav-list {
@@ -210,6 +214,7 @@ p {
 .last-header {
   display: grid;
   grid-template-columns: 75px 908px 1fr;
+  margin-bottom: 25px;
 }
 
 .ref-style {
@@ -239,8 +244,132 @@ p {
   border: none;
   background: #393939;
   cursor: pointer;
+  width: 62px;
 }
 
 .icon-main {
   width: 25px;
+}
+
+.activity-button-one {
+  border: none;
+  background: #08f;
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 375px;
+}
+
+.activity-li-one {
+  padding-left: 25px;
+  width: 670px;
+  height: 570px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./images/fone_activity_one.jpg');
+}
+
+.activity-li-two {
+  padding-left: 25px;
+  width: 235px;
+  height: 278px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./images/fone_activity_two.jpg');
+}
+
+.activity-list {
+  list-style: none;
+}
+
+.activity-paragraph-one {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 101%;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.activity-title-one {
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: capitalize;
+  color: #fff;
+  width: 478px;
+}
+
+
+
+.activity-button-two {
+  border: none;
+  background: #997c00;
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 146px;
+}
+
+.activity-paragraph-two {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 101%;
+  color: #fff;
+  margin-bottom: 13px;
+}
+
+.activity-title-two {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+  width: 165px;
+}
+
+.activity-button-three {
+  border: none;
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+  background: #08f;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 145px;
+}
+
+.activity-title-three {
+  width: 146px;
+}
+
+.activity-li-three {
+  width: 235px;
+  height: 278px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./images/fone_activity_thre.jpg');
+  padding-left: 25px;
+}
+
+.activity-paragraph-three {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 101%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.activity-title-three {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
 }
