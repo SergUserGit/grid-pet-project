@@ -178,13 +178,20 @@ p {
   background: #f65050;
   display: flex;
   flex-direction: column;
-  width: 42px;
+  width: 75px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  align-items: center;
+  gap: 8px;
 }
 
 .main-nav {
   background: #393939;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
   border-right: 0.50px solid rgba(255, 255, 255, 0.3);
+  padding-left: 21px;
+  display: flex;
+  align-items: center;
 }
 
 .main-form {
@@ -197,4 +204,43 @@ p {
   display: grid;
   grid-template-columns: 93px 47px 55px 64px 42px 103px 62px 1fr;
   column-gap: 25px;
+  align-items: center;
+}
+
+.last-header {
+  display: grid;
+  grid-template-columns: 75px 908px 1fr;
+}
+
+.ref-style {
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-ref {
+  background: #393939;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.main-input {
+  font-weight: 300;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #393939;
+  border: none;
+}
+
+.main-button {
+  border: none;
+  background: #393939;
+  cursor: pointer;
+}
+
+.icon-main {
+  width: 25px;
 }
