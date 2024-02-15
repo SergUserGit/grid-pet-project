@@ -373,3 +373,41 @@ p {
   text-transform: capitalize;
   color: #fff;
 }
+
+.activity-button-four {
+  margin-top: 26px;
+  margin-bottom: 120px;
+  border: none;
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+  background: #49cfe8;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.activity-paragraph-four {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 101%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.activity-title-four {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fff;
+  width: 295px;
+}
+
+.activity-li-four {
+  width: 485px;
+  height: 278px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/images/fone_activity_four.jpg');
+  padding-left: 23px;
+}
