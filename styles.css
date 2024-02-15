@@ -265,12 +265,13 @@ p {
 
 .activity-li-one {
   padding-left: 25px;
-  width: 670px;
+  width: 643px;
   height: 570px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: url('./images/fone_activity_one.jpg');
+  grid-area: a;
 }
 
 .activity-li-two {
@@ -281,10 +282,17 @@ p {
   background-position: center;
   background-size: cover;
   background-image: url('./images/fone_activity_two.jpg');
+  grid-area: b;
 }
 
 .activity-list {
   list-style: none;
+  display: grid;
+  grid-template-columns: 643px 1fr;
+  gap: 14px;
+  grid-template-areas:
+    "a b c"
+    "a d d";
 }
 
 .activity-paragraph-one {
@@ -357,6 +365,7 @@ p {
   background-repeat: no-repeat;
   background-image: url('./images/fone_activity_thre.jpg');
   padding-left: 25px;
+  grid-area: c;
 }
 
 .activity-paragraph-three {
@@ -392,6 +401,7 @@ p {
   line-height: 101%;
   color: #fff;
   margin-bottom: 15px;
+
 }
 
 .activity-title-four {
@@ -410,4 +420,5 @@ p {
   background-size: cover;
   background-image: url('/images/fone_activity_four.jpg');
   padding-left: 23px;
+  grid-area: d;
 }
