@@ -615,4 +615,29 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 24px;
+}
+
+.detail-one-parag {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 101%;
+  color: #393939;
+  margin-bottom: 11px;
+}
+
+.detail-one-title {
+  font-weight: 500;
+  font-size: 18px;
+  color: #393939;
+  width: 394px;
+  margin-bottom: 14px;
+}
+
+.detail-one-parag-new {
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 111%;
+  color: rgba(57, 57, 57, 0.6);
+  width: 370px;
 }
