@@ -422,3 +422,142 @@ p {
   padding-left: 23px;
   grid-area: d;
 }
+
+.activity {
+  margin-bottom: 58px;
+}
+
+.news-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #f65050;
+}
+
+.news-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 28px 68px 50px 134px 57px 64px 55px 1fr;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.news-ref-one {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 7px;
+  padding-left: 7px;
+  background: #fe4a51;
+  width: 28px;
+  text-decoration: none;
+}
+
+.news-ref-two {
+  display: block;
+  width: 68px;
+  background: #a56cbd;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.news-ref-three {
+  display: block;
+  width: 50px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  background: #2ecc71;
+  text-decoration: none;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-right: 11px;
+  padding-left: 11px;
+}
+
+.news-ref-four {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  width: 134px;
+  text-decoration: none;
+  background: #08f;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.news-ref-five {
+  display: block;
+  width: 57px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background: #997c00;
+}
+
+.news-ref-six {
+
+  display: block;
+  width: 64px;
+
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  background: #49cfe8;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.news-ref-seven {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 3px;
+  padding-top: 5px;
+  background: #08f;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 55px;
+}
+
+.button-news {
+  background: #4c60f5;
+  cursor: pointer;
+  border: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: 106px 1fr;
+  align-items: center;
+  column-gap: 190px;
+}
