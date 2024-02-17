@@ -54,12 +54,14 @@ p {
 }
 
 .span-town {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #393939;
 }
 
 .date-title {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #393939;
@@ -76,12 +78,14 @@ p {
 }
 
 .span-news {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #fff;
 }
 
 .indonesia-title {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #393939;
@@ -126,6 +130,7 @@ p {
 }
 
 .hero-paragh-one {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 151%;
@@ -135,6 +140,7 @@ p {
 }
 
 .hero-paragh-two {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 151%;
@@ -148,6 +154,7 @@ p {
 }
 
 .button-span {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: #fff;
@@ -218,6 +225,7 @@ p {
 }
 
 .ref-style {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #fff;
@@ -233,6 +241,7 @@ p {
 }
 
 .main-input {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 300;
   font-size: 10px;
   color: rgba(255, 255, 255, 0.3);
@@ -252,6 +261,7 @@ p {
 }
 
 .activity-button-one {
+  font-family: "Sofia Sans Condensed", sans-serif;
   border: none;
   background: #08f;
   font-weight: 400;
@@ -296,6 +306,7 @@ p {
 }
 
 .activity-paragraph-one {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 101%;
@@ -304,6 +315,7 @@ p {
 }
 
 .activity-title-one {
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 36px;
   text-transform: capitalize;
@@ -314,6 +326,7 @@ p {
 
 
 .activity-button-two {
+  font-family: "Sofia Sans Condensed", sans-serif;
   border: none;
   background: #997c00;
   font-weight: 400;
@@ -326,6 +339,7 @@ p {
 }
 
 .activity-paragraph-two {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 10px;
   line-height: 101%;
@@ -334,6 +348,7 @@ p {
 }
 
 .activity-title-two {
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 14px;
   text-transform: capitalize;
@@ -342,6 +357,7 @@ p {
 }
 
 .activity-button-three {
+  font-family: "Sofia Sans Condensed", sans-serif;
   border: none;
   font-weight: 400;
   font-size: 10px;
@@ -354,6 +370,7 @@ p {
 }
 
 .activity-title-three {
+  font-family: "Oswald", sans-serif;
   width: 146px;
 }
 
@@ -369,6 +386,7 @@ p {
 }
 
 .activity-paragraph-three {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 10px;
   line-height: 101%;
@@ -384,6 +402,7 @@ p {
 }
 
 .activity-button-four {
+  font-family: "Sofia Sans Condensed", sans-serif;
   margin-top: 26px;
   margin-bottom: 120px;
   border: none;
@@ -396,6 +415,7 @@ p {
 }
 
 .activity-paragraph-four {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 101%;
@@ -405,6 +425,7 @@ p {
 }
 
 .activity-title-four {
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 24px;
   text-transform: capitalize;
@@ -428,6 +449,7 @@ p {
 }
 
 .news-title {
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 24px;
   color: #f65050;
@@ -442,6 +464,7 @@ p {
 }
 
 .news-ref-one {
+  font-family: "Oswald", sans-serif;
   display: block;
   font-weight: 400;
   font-size: 12px;
@@ -456,6 +479,7 @@ p {
 }
 
 .news-ref-two {
+  font-family: "Oswald", sans-serif;
   display: block;
   width: 68px;
   background: #a56cbd;
@@ -470,6 +494,7 @@ p {
 }
 
 .news-ref-three {
+  font-family: "Oswald", sans-serif;
   display: block;
   width: 50px;
   font-weight: 400;
@@ -484,6 +509,7 @@ p {
 }
 
 .news-ref-four {
+  font-family: "Oswald", sans-serif;
   display: block;
   font-weight: 400;
   font-size: 12px;
@@ -498,6 +524,7 @@ p {
 }
 
 .news-ref-five {
+  font-family: "Oswald", sans-serif;
   display: block;
   width: 57px;
   font-weight: 400;
@@ -513,6 +540,7 @@ p {
 
 .news-ref-six {
 
+  font-family: "Oswald", sans-serif;
   display: block;
   width: 64px;
 
@@ -528,12 +556,14 @@ p {
 }
 
 .news-ref-seven {
+
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #fff;
   text-decoration: none;
   padding-bottom: 3px;
-  padding-top: 5px;
+  padding-top: 2px;
   background: #08f;
   padding-right: 15px;
   padding-left: 15px;
@@ -544,15 +574,19 @@ p {
   background: #4c60f5;
   cursor: pointer;
   border: none;
-  font-weight: 400;
-  font-size: 12px;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 14px;
-  padding-top: 4px;
+  padding-top: 5px;
   padding-bottom: 4px;
+}
+
+.button-news-span {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
 }
 
 .news {
@@ -579,20 +613,14 @@ p {
   width: 742px;
 }
 
-/*.articles-detail-one {
-  width: 393px;
-  height: 250px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('./images/article_image_one.jpg');
-}*/
+
 
 .articles-detail-list {
   list-style: none;
 }
 
 .articles-detail-button {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #fff;
@@ -619,6 +647,7 @@ p {
 }
 
 .detail-one-parag {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 10px;
   line-height: 101%;
@@ -627,6 +656,7 @@ p {
 }
 
 .detail-one-title {
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #393939;
@@ -635,6 +665,7 @@ p {
 }
 
 .detail-one-parag-new {
+  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 250;
   font-size: 14px;
   line-height: 111%;
