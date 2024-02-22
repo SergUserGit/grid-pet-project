@@ -791,3 +791,26 @@ p {
   display: grid;
   grid-template-columns: 72px 1fr;
 }
+
+.articles-last-parag {
+  margin-bottom: 12px;
+}
+
+.articles-last-item {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  column-gap: 12px;
+  align-items: center;
+}
+
+.articles-last {
+  display: grid;
+  grid-template-columns: 271px;
+  row-gap: 17px;
+}
+
+.articles-last-article {
+  display: grid;
+  grid-template-columns: 221px;
+  row-gap: 18px;
+}
