@@ -768,3 +768,26 @@ p {
   flex-direction: column;
   gap: 23px;
 }
+
+.articles-last-refs {
+  display: grid;
+  grid-template-columns: 38px 48px 1fr;
+  column-gap: 60px;
+}
+
+.articles-last-underline-one {
+  border: 1px solid #f65050;
+  width: 72px;
+  height: 0px;
+}
+
+.articles-last-underline-two {
+  border: 1px solid #393939;
+  width: 198px;
+  height: 0px;
+}
+
+.articles-last-underline {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+}
