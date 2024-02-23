@@ -773,7 +773,7 @@ p {
   list-style: none;
   display: grid;
   grid-template-columns: 38px 48px 1fr;
-  column-gap: 60px;
+  column-gap: 45px;
 }
 
 .articles-last-underline-one {
@@ -784,7 +784,7 @@ p {
 
 .articles-last-underline-two {
   border: 1px solid #393939;
-  width: 198px;
+  width: 172px;
   height: 0px;
 }
 
@@ -808,10 +808,11 @@ p {
 .articles-last {
   display: grid;
   grid-template-columns: 271px;
-  row-gap: 17px;
+  row-gap: 23px;
 }
 
 .articles-last-article {
+  list-style: none;
   display: grid;
   grid-template-columns: 221px;
   row-gap: 18px;
@@ -882,4 +883,20 @@ p {
   text-transform: capitalize;
   color: #393939;
   width: 149px;
+}
+
+.articles-last-spanone {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 101%;
+  color: #393939;
+}
+
+.articles-last-spantwo {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 101%;
+  color: rgba(57, 57, 57, 0.6);
 }
