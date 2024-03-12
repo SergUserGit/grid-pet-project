@@ -904,7 +904,85 @@ p {
 
 .news-stories-group {
   display: grid;
-  grid-template-columns: 133px 1fr;
+  grid-template-columns: 137px 1fr;
   column-gap: 960px;
   align-items: flex-end;
+  margin-bottom: 7px;
+}
+
+.news-stories-line-one {
+  border: 1px solid #f65050;
+  width: 140px;
+  height: 0px;
+}
+
+.news-stories-line-two {
+  border: 1px solid #393939;
+  width: 1015px;
+  height: 0px;
+}
+
+.news-stories-list-line {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  margin-bottom: 25px;
+}
+
+
+.news-stories-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #f65050;
+  font-family: "Oswald", sans-serif;
+}
+
+.news-stories-hero {
+  width: 1160px;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./images/news_stories_fone.jpg');
+  margin-bottom: 25px;
+}
+
+.news-stories-hero-button {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  background: #08f;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-bottom: 205px;
+  margin-left: 23px;
+}
+
+.news-stories-hero-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 33px;
+  margin-left: 23px;
+}
+
+.news-stories-hero-line {
+  border: 1px solid #f65050;
+  width: 80px;
+  height: 0px;
+  margin-bottom: 14px;
+  margin-left: 23px;
+}
+
+.news-stories-hero-paragraph {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 126%;
+  color: #fff;
+  width: 526px;
+  margin-left: 23px;
 }
