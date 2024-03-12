@@ -986,3 +986,124 @@ p {
   width: 526px;
   margin-left: 23px;
 }
+
+.news-stories-bottom-fone-one {
+  width: 130px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./images/news_stories_bottom_one.jpg');
+}
+
+.news-stories-bottom-fone-two {
+  width: 130px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./images/news_stories_bottom_two.jpg');
+}
+
+.news-stories-bottom-fone-three {
+  width: 130px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./images/news_stories_bottom_three.jpg');
+}
+
+.news-stories-bottom-list {
+  list-style: none;
+}
+
+.news-stories-bottom-button-one {
+  font-weight: 400;
+  font-size: 8px;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  background: #08f;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.news-stories-bottom-button-two {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background: #49cfe8;
+  margin-left: 8px;
+}
+
+.news-stories-bottom-button-three {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background: #2ecc71;
+  margin-left: 8px;
+}
+
+.news-stories-bottom-title-one {
+  font-weight: 500;
+  font-size: 15px;
+  color: #393939;
+  font-family: "Oswald", sans-serif;
+  width: 186px;
+}
+
+.news-stories-bottom-title-two {
+  font-weight: 500;
+  font-size: 15px;
+  color: #393939;
+  font-family: "Oswald", sans-serif;
+  width: 195px;
+}
+
+.news-stories-bottom-title-three {
+  font-weight: 500;
+  font-size: 15px;
+  color: #393939;
+  font-family: "Oswald", sans-serif;
+  width: 153px;
+}
+
+.news-stories-bottom-span-one {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 101%;
+  color: #393939;
+}
+
+.news-stories-bottom-span-two {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 101%;
+  color: rgba(57, 57, 57, 0.6);
+}
+
+.news-stories-bottom-paragpaph {
+  margin-bottom: 19px;
+}
+
+.news-stories-bottom-item {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  column-gap: 16px;
+  align-items: flex-start;
+}
+
+.news-stories-bottom-list {
+  display: grid;
+  grid-template-columns: 333px 342px 1fr;
+  column-gap: 64px;
+}
