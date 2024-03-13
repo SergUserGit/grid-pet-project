@@ -1386,3 +1386,178 @@ p {
 .sport-dest-item-six {
   grid-area: sportdescsix;
 }
+
+.sports-social-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #f65050;
+  margin-bottom: 24px;
+}
+
+.sports-social-lines {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  margin-bottom: 40px;
+}
+
+.sports-social-item-one {
+  border: 1px solid #f65050;
+  width: 72px;
+  height: 0px;
+}
+
+.sports-social-item-two {
+  border: 1px solid #393939;
+  width: 198px;
+  height: 0px;
+}
+
+.sports-social-networks {
+  list-style: none;
+  margin-bottom: 23px;
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 10px;
+  grid-template-areas:
+    "facebook instagram"
+    "youtoobe twitter"
+    "be football";
+}
+
+.sports {
+  display: grid;
+  grid-template-columns: 870px 1fr;
+  column-gap: 20px;
+  align-items: baseline;
+}
+
+.sport-item-facebook {
+  width: 130px;
+  background: #4281ff;
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  column-gap: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  grid-area: facebook;
+}
+
+.sport-item-youtoobe {
+  width: 130px;
+  background: #ef5043;
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  column-gap: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  grid-area: youtoobe;
+}
+
+.sport-item-be {
+  width: 130px;
+  background: #1b7bfd;
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  column-gap: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  grid-area: be;
+}
+
+.sport-item-instagram {
+  width: 130px;
+  background: #c23785;
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  column-gap: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  grid-area: instagram;
+}
+
+.sport-item-twitter {
+  width: 130px;
+  background: #42c0f5;
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  column-gap: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  grid-area: twitter;
+}
+
+.sport-item-football {
+  width: 130px;
+  background: #f7679d;
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  column-gap: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 13px;
+  grid-area: football;
+}
+
+.sport-facebook-followers {
+  font-weight: 500;
+  font-size: 8px;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  width: 35px;
+}
+
+.sport-youtoobe-followers {
+  font-weight: 500;
+  font-size: 8px;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  width: 37px;
+}
+
+.sport-be-followers {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  color: #fff;
+  width: 35px;
+}
+
+.sport-instagram-followers {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  color: #fff;
+  width: 35px;
+}
+
+.sport-twitter-followers {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  color: #fff;
+  width: 35px;
+}
+
+.sport-football-followers {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  color: #fff;
+  width: 35px;
+}
+
+.sports-food {
+  width: 270px;
+  height: 270px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./images/sports_food.jpg");
+}
