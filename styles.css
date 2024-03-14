@@ -1652,3 +1652,157 @@ p {
   width: 730px;
   height: 0px;
 }
+
+.life-style-details {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 28px;
+  grid-template-areas:
+    "detone dettwo"
+    "detthree detfour"
+    "detfive detsix"
+  ;
+}
+
+.life-style-detailsone {
+  width: 420px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./images/life_style_one.jpg");
+  margin-bottom: 25px;
+}
+
+.life-style-buttonsone {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  background: #997c00;
+  border: none;
+  cursor: pointer;
+  margin-left: 22px;
+  margin-top: 23px;
+}
+
+.life-style-ph-one {
+  margin-bottom: 20px;
+}
+
+.life-style-det-titleone {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #393939;
+  font-family: "Oswald", sans-serif;
+  width: 420px;
+}
+
+.life-style-ph-def {
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 111%;
+  color: rgba(57, 57, 57, 0.6);
+  font-family: "Sofia Sans Condensed", sans-serif;
+  width: 280px;
+}
+
+.life-style-span-one {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 101%;
+  color: #393939;
+}
+
+.life-style-span-two {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 101%;
+  color: rgba(57, 57, 57, 0.6);
+}
+
+.life-style-detailstwo {
+  width: 420px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./images/life_style_two.jpg");
+  margin-bottom: 25px;
+}
+
+.life-style-buttonstwo {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 22px;
+  margin-top: 23px;
+  background: #2ecc71;
+}
+
+.life-style-span-one-def {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 101%;
+  color: #393939;
+}
+
+.life-style-span-two-def {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 101%;
+  color: rgba(57, 57, 57, 0.6);
+}
+
+.life-style-det-titlethree {
+  font-weight: 400;
+  font-size: 24px;
+  color: #393939;
+  font-family: "Oswald", sans-serif;
+  width: 223px;
+}
+
+.life-style-ph-two-def {
+  margin-bottom: 18px;
+}
+
+.lyfe-style-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  column-gap: 9px;
+  align-items: flex-end;
+}
+
+.life-style-details-itemone {
+  grid-area: detone;
+}
+
+.life-style-details-itemtwo {
+  grid-area: dettwo;
+}
+
+.life-style-details-itemthree {
+  grid-area: detthree;
+}
+
+.life-style-details-itemtfour {
+  grid-area: detfive;
+}
+
+.life-style-details-itemtfive {
+  grid-area: detfour;
+}
+
+.life-style-details-itemtsix {
+  grid-area: detsix;
+}
