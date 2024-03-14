@@ -1431,6 +1431,7 @@ p {
   grid-template-columns: 870px 1fr;
   column-gap: 20px;
   align-items: baseline;
+  margin-bottom: 24px;
 }
 
 .sport-item-facebook {
@@ -1560,4 +1561,94 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("./images/sports_food.jpg");
+}
+
+.life-style-nav-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 28px 51px 55px 95px 57px 1fr;
+  column-gap: 13px;
+  align-items: center;
+}
+
+.group-life-style {
+  display: grid;
+  grid-template-columns: 87px 1fr;
+  column-gap: 370px;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.life-style-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #f65050;
+  font-family: "Oswald", sans-serif;
+}
+
+.life-style-ref {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+.life-style-ref-one {
+  background: #fe4a51;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.life-style-ref-two {
+  background: #a56cbd;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.life-style-ref-three {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: #2ecc71;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.life-style-ref-four {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: #08f;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.life-style-ref-five {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: #997c00;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.life-style-lines {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 138px 1fr;
+  margin-bottom: 25px;
+}
+
+.life-style-line-one {
+  border: 1px solid #f65050;
+  width: 138px;
+  height: 0px;
+}
+
+.life-style-line-two {
+  border: 1px solid #393939;
+  width: 730px;
+  height: 0px;
 }
