@@ -1806,3 +1806,61 @@ p {
 .life-style-details-itemtsix {
   grid-area: detsix;
 }
+
+.form-latest-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 164%;
+  color: #2d2d2d;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+
+.form-latest-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 164%;
+  color: #2d2d2d;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  background: #fff;
+  border: none;
+  padding-left: 57.5px;
+  padding-right: 57.5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+.form-latest-button {
+  border: none;
+  background: #f65050;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 164%;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  cursor: pointer;
+  padding-left: 68.5px;
+  padding-right: 68.5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 220px;
+}
+
+.form-latest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #dedada;
+  padding-bottom: 23px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 32px;
+}
+
+.life-style {
+  display: grid;
+  grid-template-columns: 870px 1fr;
+  column-gap: 20px;
+}
