@@ -1857,10 +1857,137 @@ p {
   padding-right: 25px;
   padding-left: 25px;
   padding-top: 32px;
+  margin-bottom: 35px;
 }
 
 .life-style {
   display: grid;
   grid-template-columns: 870px 1fr;
   column-gap: 20px;
+}
+
+.categories-title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #f65050;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 14px;
+}
+
+.categories-lines {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  margin-bottom: 30px;
+}
+
+.categories-line-one {
+  border: 1px solid #f65050;
+  width: 72px;
+  height: 0px;
+}
+
+.categories-line-two {
+  border: 1px solid #393939;
+  width: 198px;
+  height: 0px;
+}
+
+.categories-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.category-ph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 111%;
+  color: #393939;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+.group-item-category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.categories-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span-category-one {
+  background: #f65050;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 4.5px;
+  padding-left: 4.5px;
+}
+
+.span-category-style {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 111%;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+.span-category-two {
+  background: #a56cbd;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.span-category-three {
+  background: #c23785;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.span-category-four {
+  background: #4c60f5;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 5.5px;
+  padding-left: 5.5px;
+}
+
+.span-category-five {
+  background: #08f;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 5.5px;
+  padding-left: 5.5px;
+}
+
+.span-category-six {
+  background: #f7679d;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+
+.span-category-seven {
+  background: #42c0f5;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+.span-category-eight {
+  background: #49cfe8;
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+  padding-right: 6px;
+  padding-left: 6px;
 }
