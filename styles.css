@@ -2350,3 +2350,22 @@ p {
   margin-left: 25px;
   margin-bottom: 33PX;
 }
+
+.video-clips-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 288px 288px 288px 288px 1fr;
+  justify-content: center;
+}
+
+.video-group-clip {
+  width: 288px;
+  height: 288px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('./images/video_clip_three.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
