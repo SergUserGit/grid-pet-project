@@ -2374,4 +2374,30 @@ p {
   background: #393939;
   padding-top: 43px;
   padding-bottom: 76px;
+  display: grid;
+  grid-template-columns: 247px 1fr;
+  column-gap: 47px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-ph {
+  width: 200px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 148%;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  margin-bottom: 34px;
+}
+
+.footer-newscast-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 40px 40px 40px 1fr;
+  column-gap: 20px;
+}
+
+.footer-newscast-img {
+  margin-bottom: 31px;
 }
