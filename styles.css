@@ -2472,3 +2472,34 @@ p {
 .footer-galery-items-six {
   grid-area: six;
 }
+
+.footer-tags-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 4px;
+}
+
+.footer-tags-lines {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  margin-bottom: 21px;
+}
+
+.footer-tags-lineone {
+  border: 1px solid #f65050;
+  width: 70px;
+  height: 0px;
+}
+
+.footer-tags-linetwo {
+  border: 1px solid #fff;
+  width: 200px;
+  height: 0px;
+}
+
+.footer-tags-items {
+  list-style: none;
+}
