@@ -2503,3 +2503,67 @@ p {
 .footer-tags-items {
   list-style: none;
 }
+
+.footer-tag-ref {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  text-decoration: none;
+}
+
+.footer-tag-ref-one {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background: #f65050;
+}
+
+.footer-tag-ref-two {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background: #08f;
+}
+
+.footer-tag-ref-three {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #a56cbd;
+}
+
+.footer-tag-ref-four {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5.5px;
+  padding-right: 5.5px;
+  background: #997c00;
+}
+
+.footer-tag-ref-five {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #ffb8b8;
+}
+
+.footer-tag-ref-six {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #49cfe8;
+}
+
+.footer-tag-ref-six {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #4281ff;
+}
