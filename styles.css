@@ -2484,13 +2484,13 @@ p {
 .footer-tags-lines {
   list-style: none;
   display: grid;
-  grid-template-columns: 70px 1fr;
+  grid-template-columns: 50px 1fr;
   margin-bottom: 21px;
 }
 
 .footer-tags-lineone {
   border: 1px solid #f65050;
-  width: 70px;
+  width: 50px;
   height: 0px;
 }
 
@@ -2502,7 +2502,20 @@ p {
 
 .footer-tags-items {
   list-style: none;
+  display: grid;
+  column-gap: 3px;
+  grid-template-columns: 64px 57px 63px 1fr;
+  margin-bottom: 14px;
 }
+
+
+.footer-tags-items-new {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 110px 76px 1fr;
+  column-gap: 3px;
+}
+
 
 .footer-tag-ref {
   font-weight: 400;
@@ -2560,7 +2573,7 @@ p {
   background: #49cfe8;
 }
 
-.footer-tag-ref-six {
+.footer-tag-ref-seven {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
