@@ -2374,11 +2374,12 @@ p {
   background: #393939;
   padding-top: 43px;
   padding-bottom: 76px;
+}
+
+.footer-main-new {
   display: grid;
   grid-template-columns: 247px 1fr;
   column-gap: 47px;
-  padding-left: 15px;
-  padding-right: 15px;
   align-items: flex-start;
 }
 
