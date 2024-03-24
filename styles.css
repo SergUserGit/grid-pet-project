@@ -2392,7 +2392,7 @@ p {
   display: grid;
   grid-template-columns: 247px 1fr;
   column-gap: 47px;
-  align-items: flex-start;
+  align-items: normal;
   background: #393939;
 }
 
