@@ -2370,10 +2370,22 @@ p {
   justify-content: center;
 }
 
+
 .footer-main {
   background: #393939;
-  padding-top: 43px;
-  padding-bottom: 76px;
+}
+
+.footer-images-gallery {
+  background: #393939;
+}
+
+.footer-images-tags {
+  background: #393939;
+}
+
+.footer-stay {
+  background: #393939;
+  padding-right: 15px;
 }
 
 .footer-main-new {
@@ -2381,6 +2393,13 @@ p {
   grid-template-columns: 247px 1fr;
   column-gap: 47px;
   align-items: flex-start;
+  background: #393939;
+}
+
+.footer-newscast {
+  background: #393939;
+  padding-top: 43px;
+  padding-bottom: 76px;
 }
 
 .footer-ph {
@@ -2408,6 +2427,9 @@ p {
   display: grid;
   grid-template-columns: 270px 270px 1fr;
   column-gap: 30px;
+  background: #393939;
+  padding-top: 43px;
+  padding-bottom: 76px;
 }
 
 .footer-galery-title {
@@ -2580,4 +2602,70 @@ p {
   padding-left: 10px;
   padding-right: 10px;
   background: #4281ff;
+}
+
+.footer-stay-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 4px;
+}
+
+.footer-stay-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  margin-bottom: 25px;
+}
+
+.footer-stay-itemone {
+  border: 1px solid #f65050;
+  width: 70px;
+  height: 0px;
+}
+
+.footer-stay-itemtwo {
+  border: 1px solid #fff;
+  width: 200px;
+  height: 0px;
+}
+
+.footer-stay-ph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 149%;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  margin-bottom: 17px;
+}
+
+.footer-stay-input {
+  background: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 164%;
+  color: #c4c4c4;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  padding-left: 82px;
+  padding-right: 82px;
+  border: none;
+  margin-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-stay-button {
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 164%;
+  color: #fff;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  background: #f65050;
+  padding-right: 106px;
+  padding-left: 106px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
