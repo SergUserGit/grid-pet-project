@@ -1584,6 +1584,13 @@ p {
   font-family: "Oswald", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-navigation-title {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
 .news-stories-line-two {
   border: 1px solid #393939;
   width: 1015px;
@@ -1866,6 +1873,14 @@ p {
   align-items: center;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-navigation-list {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 10px;
+  }
+}
+
 .sports-navigation {
   display: grid;
   grid-template-columns: 61px 1fr;
@@ -1874,12 +1889,34 @@ p {
   margin-bottom: 17px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-navigation {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 10px;
+  }
+}
+
 .sports-navigation-ref {
   font-weight: 400;
   font-size: 12px;
   color: #fff;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-navigation-ref {
+    display: block;
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-navigation-list-li {
+    text-align: center;
+  }
 }
 
 .sports-navigation-one {
@@ -1955,6 +1992,12 @@ p {
   border: 1px solid #393939;
   width: 714px;
   height: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-list-line-two {
+    width: 150px;
+  }
 }
 
 .sports-list-description {
@@ -2171,6 +2214,14 @@ p {
   column-gap: 20px;
   align-items: baseline;
   margin-bottom: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 10px;
+  }
 }
 
 .sport-item-facebook {
