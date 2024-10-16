@@ -2015,6 +2015,15 @@ p {
   ;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-list-description {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 10px;
+    grid-template-areas: none;
+  }
+}
+
 .sport-desc-one {
   width: 393px;
   height: 250px;
@@ -2023,6 +2032,12 @@ p {
   background-repeat: no-repeat;
   background-image: url("./images/sport_desc_one.jpg");
   margin-bottom: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-one {
+    width: 290px;
+  }
 }
 
 .sport-desc-button {
@@ -2070,12 +2085,33 @@ p {
   width: 290px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-parag-other {
+    font-size: 12px;
+    width: 290px;
+    text-align: center;
+  }
+}
+
 .sport-desc-parag-second {
   margin-bottom: 23px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-parag-second {
+    text-align: center;
+  }
+}
+
 .sport-desc-title-one {
   margin-bottom: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-title-one {
+    width: 290px;
+    text-align: center;
+  }
 }
 
 .sport-desc-parag-last {
@@ -2106,6 +2142,14 @@ p {
   width: 223px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-title-two {
+    width: 190px;
+  }
+
+}
+
+
 .sport-desc-title-three {
   font-weight: 400;
   font-size: 15px;
@@ -2114,12 +2158,24 @@ p {
   width: 239px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-title-three {
+    width: 218px;
+  }
+}
+
 .sport-desc-title-four {
   font-weight: 400;
   font-size: 15px;
   color: #393939;
   font-family: "Oswald", sans-serif;
   width: 258px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-title-four {
+    width: 210px;
+  }
 }
 
 
@@ -2131,12 +2187,24 @@ p {
   width: 261px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-title-five {
+    width: 198px;
+  }
+}
+
 .sport-desc-title-six {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #393939;
   width: 237px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-desc-title-six {
+    width: 190px;
+  }
 }
 
 .sport-item-desc {
@@ -2149,24 +2217,78 @@ p {
   grid-area: sportdescone;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-dest-item-one {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
+}
+
 .sport-dest-item-two {
   grid-area: sportdesctwo;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-dest-item-two {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
 }
 
 .sport-dest-item-three {
   grid-area: sportdescthree;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-dest-item-three {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
+}
+
 .sport-dest-item-four {
   grid-area: sportdescfour;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-dest-item-four {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
 }
 
 .sport-dest-item-five {
   grid-area: sportdescfive;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-dest-item-five {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
+}
+
 .sport-dest-item-six {
   grid-area: sportdescsix;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sport-dest-item-six {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
 }
 
 .sports-social-title {
@@ -2175,6 +2297,13 @@ p {
   font-size: 14px;
   color: #f65050;
   margin-bottom: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-social-title {
+    text-align: center;
+    font-size: 12px;
+  }
 }
 
 .sports-social-lines {
@@ -2196,6 +2325,13 @@ p {
   height: 0px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-social-item-two {
+    width: 218px;
+  }
+
+}
+
 .sports-social-networks {
   list-style: none;
   margin-bottom: 23px;
@@ -2206,6 +2342,12 @@ p {
     "facebook instagram"
     "youtoobe twitter"
     "be football";
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-social-networks {
+    column-gap: 30px;
+  }
 }
 
 .sports {
@@ -2351,6 +2493,12 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("./images/sports_food.jpg");
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sports-food {
+    width: 290px;
+  }
 }
 
 .life-style-nav-list {
