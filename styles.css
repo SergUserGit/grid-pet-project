@@ -2645,6 +2645,15 @@ p {
   ;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-details {
+    display: grid;
+    grid-template-columns: 290px;
+    row-gap: 10px;
+    grid-template-areas: none;
+  }
+}
+
 .life-style-detailsone {
   width: 420px;
   height: 250px;
@@ -2653,6 +2662,12 @@ p {
   background-repeat: no-repeat;
   background-image: url("./images/life_style_one.jpg");
   margin-bottom: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-detailsone {
+    width: 290px;
+  }
 }
 
 .life-style-buttonsone {
@@ -2671,6 +2686,12 @@ p {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-ph-one {
+    text-align: center;
+  }
+}
+
 .life-style-det-titleone {
   margin-bottom: 20px;
   font-weight: 500;
@@ -2681,6 +2702,14 @@ p {
   width: 420px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-det-titleone {
+    font-size: 16px;
+    text-align: center;
+    width: 290px;
+  }
+}
+
 .life-style-ph-def {
   font-weight: 250;
   font-size: 14px;
@@ -2688,6 +2717,14 @@ p {
   color: rgba(57, 57, 57, 0.6);
   font-family: "Sofia Sans Condensed", sans-serif;
   width: 280px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-ph-def {
+    font-size: 12px;
+    text-align: center;
+    width: 290px;
+  }
 }
 
 .life-style-span-one {
@@ -2714,6 +2751,12 @@ p {
   background-repeat: no-repeat;
   background-image: url("./images/life_style_two.jpg");
   margin-bottom: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-detailstwo {
+    width: 290px;
+  }
 }
 
 .life-style-buttonstwo {
@@ -2752,6 +2795,13 @@ p {
   width: 223px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-det-titlethree {
+    font-size: 16px;
+    width: 160px;
+  }
+}
+
 .life-style-ph-two-def {
   margin-bottom: 18px;
 }
@@ -2767,24 +2817,78 @@ p {
   grid-area: detone;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-details-itemone {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
+}
+
 .life-style-details-itemtwo {
   grid-area: dettwo;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-details-itemtwo {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
 }
 
 .life-style-details-itemthree {
   grid-area: detthree;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-details-itemthree {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
+}
+
 .life-style-details-itemtfour {
   grid-area: detfive;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-details-itemtfour {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
 }
 
 .life-style-details-itemtfive {
   grid-area: detfour;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-details-itemtfive {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
+}
+
 .life-style-details-itemtsix {
   grid-area: detsix;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-details-itemtsix {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+  }
 }
 
 .form-latest-title {
