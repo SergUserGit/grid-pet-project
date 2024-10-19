@@ -3539,8 +3539,22 @@ p {
   width: 270px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .video-title-one {
+    font-size: 12px;
+    text-align: center;
+    width: 250px;
+  }
+}
+
 .video-parag {
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .video-parag {
+    text-align: center;
+  }
 }
 
 .video-group-buttwo {
@@ -3599,6 +3613,12 @@ p {
   margin-bottom: 33PX;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .video-group-butthree {
+    margin-left: 0;
+  }
+}
+
 .video-group-icon-three {
   display: flex;
   align-items: center;
@@ -3613,12 +3633,28 @@ p {
   width: 270px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .video-title-two {
+    font-size: 12px;
+    text-align: center;
+    width: 260px;
+  }
+}
+
 .video-title-four {
   font-weight: 500;
   font-size: 14px;
   color: #393939;
   font-family: "Oswald", sans-serif;
   width: 270px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .video-title-four {
+    font-size: 12px;
+    text-align: center;
+    width: 260px;
+  }
 }
 
 .video-group-four {
@@ -3648,6 +3684,12 @@ p {
   margin-top: 23px;
   margin-left: 25px;
   margin-bottom: 33PX;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .video-group-butfour {
+    margin-left: 0;
+  }
 }
 
 .video-clips-list {
