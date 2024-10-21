@@ -523,6 +523,12 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .home-group {
+    width: auto;
+  }
+}
+
 .main-nav {
   background: #393939;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
@@ -533,6 +539,12 @@ p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .main-nav {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .main-nav {
     padding-left: 0;
   }
@@ -555,7 +567,24 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-form {
+    display: grid;
+    grid-template-columns: 450px;
+    justify-items: center;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .group-loop-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 55px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .group-loop-button {
     display: flex;
     align-items: center;
@@ -583,6 +612,17 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .nav-list {
+    display: grid;
+    grid-template-columns: 450px;
+    row-gap: 18px;
+    justify-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
 .last-header {
   display: grid;
   grid-template-columns: 75px 908px 1fr;
@@ -593,6 +633,13 @@ p {
   .last-header {
     display: grid;
     grid-template-columns: 290px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .last-header {
+    display: grid;
+    grid-template-columns: 450px;
   }
 }
 
@@ -607,6 +654,12 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .ref-style {
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .ref-style {
+    font-size: 18px;
   }
 }
 
@@ -627,6 +680,18 @@ p {
   border: none;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .main-input {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-input {
+    margin-top: 5px;
+  }
+}
+
 .main-button {
   border: none;
   background: #393939;
@@ -636,6 +701,12 @@ p {
 
 .icon-main {
   width: 25px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .icon-main {
+    width: 38px;
+  }
 }
 
 .activity-button-one {
@@ -672,6 +743,16 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-li-one {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+    width: 450px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .group-activity-button-one {
     display: flex;
@@ -701,6 +782,16 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-li-two {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+    width: 450px;
+  }
+}
+
 .activity-list {
   list-style: none;
   display: grid;
@@ -716,6 +807,15 @@ p {
     display: grid;
     grid-template-columns: 290px;
     row-gap: 10px;
+    grid-template-areas: none;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-list {
+    display: grid;
+    grid-template-columns: 450px;
+    row-gap: 12px;
     grid-template-areas: none;
   }
 }
@@ -853,6 +953,16 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-li-three {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+    width: 450px;
+  }
+}
+
 .activity-paragraph-three {
   font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
@@ -960,6 +1070,16 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-li-four {
+    grid-column-end: auto;
+    grid-column-start: auto;
+    grid-row-end: auto;
+    grid-row-start: auto;
+    width: 450px;
+  }
+}
+
 .activity {
   margin-bottom: 58px;
 }
@@ -969,6 +1089,13 @@ p {
     margin-bottom: 15px;
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity {
+    margin-bottom: 17px;
+  }
+}
+
 
 .news-title {
   font-family: "Oswald", sans-serif;
