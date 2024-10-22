@@ -857,6 +857,14 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-activity-button-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .activity-title-one {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
@@ -874,6 +882,14 @@ p {
   }
 }
 
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-title-one {
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+  }
+}
 
 .activity-button-two {
   font-family: "Sofia Sans Condensed", sans-serif;
@@ -903,6 +919,12 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-paragraph-two {
+    text-align: center;
+  }
+}
+
 .activity-title-two {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
@@ -920,7 +942,23 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-title-two {
+    font-size: 13px;
+    text-align: center;
+    width: 410px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .group-activity-button-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .group-activity-button-three {
     display: flex;
     align-items: center;
@@ -992,6 +1030,12 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-paragraph-three {
+    text-align: center;
+  }
+}
+
 .activity-title-three {
   font-weight: 500;
   font-size: 14px;
@@ -1004,6 +1048,14 @@ p {
     text-align: center;
     font-size: 12px;
     width: 250px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-title-three {
+    text-align: center;
+    font-size: 13px;
+    width: 410px;
   }
 }
 
@@ -1029,6 +1081,13 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-activity-button-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .activity-paragraph-four {
   font-family: "Sofia Sans Condensed", sans-serif;
@@ -1041,6 +1100,12 @@ p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .activity-paragraph-four {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .activity-paragraph-four {
     text-align: center;
   }
@@ -1060,6 +1125,14 @@ p {
     font-size: 16px;
     text-align: center;
     width: 250px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .activity-title-four {
+    font-size: 18px;
+    text-align: center;
+    width: 410px;
   }
 }
 
