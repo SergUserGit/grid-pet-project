@@ -3492,6 +3492,14 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .life-style-nav-list {
+    display: grid;
+    grid-template-columns: 450px;
+    row-gap: 12px;
+  }
+}
+
 .group-life-style {
   display: grid;
   grid-template-columns: 87px 1fr;
@@ -3508,6 +3516,14 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-life-style {
+    display: grid;
+    grid-template-columns: 450px;
+    row-gap: 12px;
+  }
+}
+
 .life-style-title {
   font-weight: 500;
   font-size: 24px;
@@ -3519,6 +3535,13 @@ p {
   .life-style-title {
     text-align: center;
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .life-style-title {
+    text-align: center;
+    font-size: 18px;
   }
 }
 
@@ -3537,7 +3560,20 @@ p {
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .life-style-ref {
+    display: block;
+    width: auto;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
+  .life-style-ref-li {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .life-style-ref-li {
     text-align: center;
   }
@@ -3605,6 +3641,12 @@ p {
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .life-style-line-two {
     width: 152px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .life-style-line-two {
+    width: 312px;
   }
 }
 
@@ -3952,6 +3994,16 @@ p {
     margin-bottom: 15px;
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .life-style {
+    display: grid;
+    grid-template-columns: 450px;
+    row-gap: 12px;
+    margin-bottom: 17px;
+  }
+}
+
 
 .categories-title {
   font-weight: 500;
