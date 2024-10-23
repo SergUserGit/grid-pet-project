@@ -2688,6 +2688,15 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .articles-last-refs {
+    display: grid;
+    grid-template-columns: 190px 255px 265px;
+    justify-items: center;
+    column-gap: 25px;
+  }
+}
+
 .articles-last-underline-one {
   border: 1px solid #f65050;
   width: 72px;
@@ -2709,6 +2718,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .articles-last-underline-two {
     width: 378px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .articles-last-underline-two {
+    width: 666px;
   }
 }
 
