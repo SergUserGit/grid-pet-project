@@ -2507,6 +2507,15 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .articles-all {
+    display: grid;
+    grid-template-columns: 480px;
+    row-gap: 19px;
+    margin-bottom: 19px;
+  }
+}
+
 .articles-last-refone {
   font-family: "Oswald", sans-serif;
   font-weight: 500;
