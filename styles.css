@@ -46,6 +46,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 738px;
+  }
+}
+
 .span-temp {
   font-weight: 400;
   font-size: 12px;
@@ -73,6 +79,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .group-temp {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
 .header {
   box-shadow: 0 1px 10px 0 rgba(246, 80, 80, 0.15);
   background: #fff;
@@ -93,6 +107,13 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .group-img-clock {
     display: flex;
@@ -102,6 +123,14 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-img-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .group-img-clock {
     display: flex;
     justify-content: center;
@@ -125,6 +154,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .socials {
+    display: grid;
+    grid-template-columns: 738px;
+    justify-items: center;
+  }
+}
+
 .span-town {
   font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
@@ -139,6 +176,12 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .span-town {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .span-town {
     text-align: center;
   }
@@ -163,6 +206,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .date-title {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .group-button-news {
     display: flex;
@@ -172,6 +221,14 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-button-news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .group-button-news {
     display: flex;
     align-items: center;
@@ -217,6 +274,13 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .indonesia-title {
+    text-align: center;
+    width: 738px;
+  }
+}
+
 .temp-logo {
   display: grid;
   grid-template-columns: 16px 19px 51px 16px 153px 96px 1fr;
@@ -240,6 +304,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .temp-logo {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 14px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .group-img-sun {
     display: flex;
@@ -249,6 +321,14 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-img-sun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .group-img-sun {
     display: flex;
     align-items: center;
@@ -266,6 +346,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .social-list {
     column-gap: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .social-list {
+    column-gap: 20px;
   }
 }
 
@@ -289,6 +375,14 @@ p {
     display: grid;
     grid-template-columns: 450px;
     row-gap: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .group-header-one {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 30px;
   }
 }
 
@@ -333,6 +427,18 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .overlay-hero {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 300px;
+    width: 738px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
 .hero-paragh-one {
   font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
@@ -355,6 +461,14 @@ p {
     width: 410px;
     text-align: center;
     font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero-paragh-one {
+    width: 698px;
+    text-align: center;
+    font-size: 14px;
   }
 }
 
@@ -382,6 +496,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero-paragh-two {
+    font-size: 14px;
+    text-align: center;
+    width: 698px;
+  }
+}
+
 .hero-paragh {
   display: grid;
   grid-template-columns: 219px;
@@ -404,6 +526,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero-paragh {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 6px;
+  }
+}
+
 .button-span {
   font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 700;
@@ -422,6 +552,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .button-span {
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .button-span {
+    font-size: 17px;
   }
 }
 
@@ -449,7 +585,11 @@ p {
   }
 }
 
-
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .button-hero {
+    margin-right: 30px;
+  }
+}
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .group-button-hero {
@@ -459,6 +599,14 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-button-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .group-button-hero {
     display: flex;
     align-items: center;
@@ -490,6 +638,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 24px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .group-logo-svg {
     display: flex;
@@ -499,6 +655,14 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-logo-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .group-logo-svg {
     display: flex;
     align-items: center;
@@ -529,6 +693,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .home-group {
+    width: auto;
+  }
+}
+
 .main-nav {
   background: #393939;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
@@ -545,6 +715,12 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .main-nav {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .main-nav {
     padding-left: 0;
   }
@@ -572,6 +748,13 @@ p {
     display: grid;
     grid-template-columns: 450px;
     justify-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .main-form {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -623,6 +806,17 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .nav-list {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 19px;
+    justify-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+}
+
 .last-header {
   display: grid;
   grid-template-columns: 75px 908px 1fr;
@@ -643,6 +837,13 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .last-header {
+    display: grid;
+    grid-template-columns: 738px;
+  }
+}
+
 .ref-style {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -660,6 +861,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .ref-style {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .ref-style {
+    font-size: 19px;
   }
 }
 
@@ -704,6 +911,12 @@ p {
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
+  .icon-main {
+    width: 38px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .icon-main {
     width: 38px;
   }
@@ -5759,6 +5972,3 @@ p {
     padding-left: 194px;
   }
 }
-
-/*@media screen and (min-width: 480px) and (max-width: 767px) {*/
-/*@media screen and (min-width: 768px) and (max-width: 1199px) {*/
