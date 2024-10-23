@@ -2398,6 +2398,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .article_h3_three {
+    width: 738px;
+  }
+}
+
 .article_h3_four {
   width: 269px;
 }
@@ -2414,6 +2420,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .article_h3_four {
+    width: 738px;
+  }
+}
+
 .article_h3_five {
   width: 269px;
 }
@@ -2427,6 +2439,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .article_h3_five {
     width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .article_h3_five {
+    width: 738px;
   }
 }
 
