@@ -5292,7 +5292,7 @@ p {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .footer-newscast-list {
-    column-gap: 92px;
+    column-gap: 96px;
   }
 }
 
