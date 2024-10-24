@@ -4467,6 +4467,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style-ref-li {
+    text-align: center;
+  }
+}
+
 .life-style-ref-one {
   background: #fe4a51;
   padding-top: 3px;
@@ -4497,6 +4503,15 @@ p {
   background: #08f;
   padding-left: 11px;
   padding-right: 11px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style-ref-four {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+    display: block;
+  }
 }
 
 .life-style-ref-five {
