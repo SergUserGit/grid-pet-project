@@ -4396,6 +4396,15 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .group-life-style {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 14px;
+    justify-items: center;
+  }
+}
+
 .life-style-title {
   font-weight: 500;
   font-size: 24px;
@@ -4414,6 +4423,13 @@ p {
   .life-style-title {
     text-align: center;
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style-title {
+    text-align: center;
+    font-size: 20px;
   }
 }
 
@@ -4519,6 +4535,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .life-style-line-two {
     width: 312px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style-line-two {
+    width: 600px;
   }
 }
 
@@ -4999,6 +5021,15 @@ p {
     grid-template-columns: 450px;
     row-gap: 12px;
     margin-bottom: 17px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style {
+    display: grid;
+    grid-template-columns: 738px;
+    row-gap: 14px;
+    margin-bottom: 18px;
   }
 }
 
