@@ -4088,6 +4088,14 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .sports-social-title {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+}
+
 .sports-social-lines {
   list-style: none;
   display: grid;
@@ -4125,6 +4133,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .sports-social-item-two {
+    width: 666px;
+  }
+}
+
 .sports-social-networks {
   list-style: none;
   margin-bottom: 23px;
@@ -4146,6 +4160,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .sports-social-networks {
     column-gap: 191px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .sports-social-networks {
+    column-gap: 481px;
   }
 }
 
@@ -4319,6 +4339,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .sports-food {
     width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .sports-food {
+    width: 738px;
   }
 }
 
