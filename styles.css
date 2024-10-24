@@ -4666,6 +4666,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style-det-titleone {
+    width: 290px;
+  }
+}
+
 .life-style-ph-def {
   font-weight: 250;
   font-size: 14px;
@@ -4729,6 +4735,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style-detailstwo {
+    width: 290px;
+  }
+}
+
 .life-style-buttonstwo {
   font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 400;
@@ -4775,6 +4787,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .life-style-det-titlethree {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .life-style-det-titlethree {
+    width: 160px;
   }
 }
 
@@ -5069,6 +5087,12 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .categories-title {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .group-best_selling_button {
     display: flex;
@@ -5113,6 +5137,12 @@ p {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .categories-line-two {
     width: 378px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .categories-line-two {
+    width: 666px;
   }
 }
 
