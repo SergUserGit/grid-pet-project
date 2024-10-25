@@ -5285,6 +5285,13 @@ p {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .best_selling {
+    width: 738px;
+    column-gap: 352px;
+  }
+}
+
 .group_best_selling {
   display: flex;
   flex-direction: column;
